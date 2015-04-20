@@ -1,0 +1,23 @@
+1.
+00000000004004b4 T _Z7averagePdRd
+00000000004004e2 T _Z7averageif
+000000000040050a T main
+The answer is "T"
+
+2.
+output:
+1 8
+4 8
+4 8
+8 8
+
+*使用sizeof可得到變數的位元組大小
+
+char a => 1 byte
+int  b => 4 byte
+float c => 4 byte
+double d => 8 byte
+
+char *pa , int *pb ,float *pc ,double *pd
+==>指標變數代表記憶體的位址 , 所以不論是何種 type
+大小都一樣(64位元的電腦下為8 byte)
